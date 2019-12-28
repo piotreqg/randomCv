@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    margin-left: 25%;
+}
+.flexbox-container{
+ /*   border: solid rebeccapurple 1px;
+    padding: 3px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 55%;
+}
+.flexbox-container div{
+    margin-top: 1px;
+   /* border: solid greenyellow 1px; */
+}
+.flexbox-container div.top{
+    flex-basis: 100%;
+    text-align: right;
+}
+.flexbox-container-end{
+    margin-bottom: 30px;
+}
+h2{
+    display: inline-block;
+    margin-bottom: 0;
+}
+.flexbox-container div.first{
+    margin-left: 25px;
+}
+.flexbox-container div.second{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.flexbox-container div.third{
+    margin-top: 20px;
+}
+.flexbox-container div.extramargin{
+    margin-right: 90px;
+}
+.flexbox-container div.extramargin2{
+    margin-right: 20px;
+}
+.flexbox-container div.image{
+    margin-top: 20px;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+.break{
+
+    flex-basis: 100%;
+}
+.break hr.line{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid grey;
+}
+ul.exp{
+    margin-left: 20px;
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+ul.extramargin3{
+    margin-left: 40px;
+}
+p{
+    margin-top: 0;
+}
+p1{
+    font-size: 17px;
+    position: relative;
+    font-weight: 700;
+}
+p1::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: -20px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+}
